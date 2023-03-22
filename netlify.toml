@@ -1,0 +1,3 @@
+[[build.environment]]
+name = "EXPO_CLI"
+value = "true"

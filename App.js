@@ -33,7 +33,7 @@ const App = () => {
       const updatedTodos = todos.filter((todo) => todo._id !== id);
       setTodos(updatedTodos);
     } catch (error) {
-      console.error('Error deleting todo:', error);
+      console.error('there was Error deleting todo:', error);
     }
   };
 
@@ -224,7 +224,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
   },
   updateButtonText: {
-    color: '#FFFFFF',
+    color: 'ffffff',
     fontWeight: 'bold',
   },
   editButton: {
@@ -236,3 +236,4 @@ const styles = StyleSheet.create({
   },
 });
 export default App;
+// this is so I can add a git commit
